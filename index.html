@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWA App</title>
+    <link rel="icon" href="logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container {
+        max-width: 600px;
+        background: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #007acc;
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+      }
+
+      .logo-container {
+        margin: 20px auto;
+        width: 100px;
+        height: 100px;
+      }
+
+      .logo-container img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo-container">
+      <img src="logo.png" alt="App Logo" />
+    </div>
+
+    <div class="container">
+      <h1>About Our PWA Implementation</h1>
+      <p>
+        This Progressive Web App (PWA) leverages service workers to enable
+        offline functionality, ensuring that our application remains accessible
+        even without an internet connection. Additionally, the web app manifest
+        provides essential information about the app, allowing it to be
+        installed on users' devices like a native app, complete with an icon and
+        a splash screen.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
